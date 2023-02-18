@@ -28,9 +28,10 @@ body {
   border-radius: 15px;
 }
 img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
+  border: 5px solid navy;
 }
 h1 {
   font-family: 'Times New Roman', Times, serif;
@@ -60,17 +61,24 @@ span {
   font-size: 1.5vw;
 }
 a:hover {
-  background-color: rgb(197, 255, 192);
+  background-color: rgba(0, 162, 255, 0.623);
 } 
 .followup {
   padding: 10px;
+  overflow-y: auto;
 }
 .flex-container {
   display: flex;
 }
 .flex-container > div {
   margin: 10px;
-} 
+}
+.hobby {
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+}
 *{box-sizing: border-box;}
 .container {
   width: 100%;
